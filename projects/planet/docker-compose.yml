@@ -36,7 +36,9 @@ services:
       - "${DATA_DIR}:/data"
       - "./blacklist/:/data/blacklist"
   whosonfirst:
-    image: getstrabo/whosonfirst
+    build:
+      context: /home/pelias/whosonfirst
+      dockerfile: Dockerfile
     container_name: pelias_whosonfirst
     user: "${DOCKER_USER}"
     volumes:
