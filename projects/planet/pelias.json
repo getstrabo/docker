@@ -56,7 +56,7 @@
     },
     "polyline": {
       "datapath": "/data/polylines",
-      "files": [ "extract.0sv" ]
+      "files": [ "extract.0sv", "planet-latest-valhalla.polylines.0sv.gz" ]
     },
     "whosonfirst": {
       "datapath": "/data/whosonfirst",
